@@ -9,6 +9,6 @@ app.configure(function() {
 //Get the dummy data
 require('./server/ddata.js');
 
-var port = 8080;
+var port = 80;
 app.listen(port);
 console.log('Express server started on port %s', port);
